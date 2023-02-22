@@ -1,7 +1,7 @@
 
  
  let result =0;
-
+// function for calculation area && add table data 
   function areaCalculation(tableContainer,result,title,total){
     const container = document.getElementById(tableContainer);
     const tr = document.createElement('tr');
@@ -17,6 +17,8 @@
     `;
     container.appendChild(tr);
   }
+
+  // cheak validation 
   function validation(FirstInput,SecondInput){
     if(FirstInput  <= 0 || FirstInput == typeof String){
         alert('please input valid number')
