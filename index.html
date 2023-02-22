@@ -26,156 +26,160 @@
     <main>
         <div class="d-md-flex m-2 gap-2 ">
             <div>
-                <div class="row row-cols-1 row-cols-md-3 g-2  ">
-
+                <div class="row row-cols-1 row-cols-md-3 g-2 ">
+                    <!-- Triangle  -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/triangle.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Triangle</h5>
+                                <h5 class="card-title text-center mt-5" id="triangle-title">Triangle</h5>
                                 <p class="card-text text-center mb-2">Area (A) = 0.5 x b x h</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="b">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2 " id="triangle-first-input" type="text" placeholder="b">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="h">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="triangle-second-input" type="text" placeholder="h">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="triangle-btn">Calculate</button>
                             </div>
                         </div>
                     </div>
+                    <!-- ractangle -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/rectangle.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Rectangle</h5>
+                                <h5 id="rectangle-title" class="card-title text-center mt-5" >Rectangle</h5>
                                 <p class="card-text text-center mb-2">Area (A) = w x l</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="w">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="rectangle-first-input" type="text" placeholder="w">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="l">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="rectangle-second-input" type="text" placeholder="l">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="rectangle-btn">Calculate</button>
                             </div>
                         </div>
                     </div>
+                    <!-- parallelogram  -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/parallelogram.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Parallelogram</h5>
+                                <h5 class="card-title text-center mt-5" id="parallelogram-title" >Parallelogram</h5>
                                 <p class="card-text text-center mb-2">Area (A) = b x h</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="b">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="parallelogram-first-input" type="text" placeholder="b">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="h">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="parallelogram-second-input" type="text" placeholder="h">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="parallelogram-btn" >Calculate</button>
                             </div>
                         </div>
                     </div>
-
+                    <!-- rhombus -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/rhombus.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Rhombus</h5>
+                                <h5 class="card-title text-center mt-5" id="rhombus-title" >Rhombus</h5>
                                 <p class="card-text text-center mb-2">Area (A) = 0.5 x d1 x d2</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="d1">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="rhombus-first-input" type="text" placeholder="d1">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="d2">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="rhombus-second-input" type="text" placeholder="d2">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="rhombus-btn" >Calculate</button>
                             </div>
                         </div>
                     </div>
+                    <!-- pentagon  -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/pentagon.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Pentagon</h5>
+                                <h5 class="card-title text-center mt-5" id="pentagon-title"  >Pentagon</h5>
                                 <p class="card-text text-center mb-2">Area (A) = 0.5 x p x b</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="p">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="pentagon-first-input" type="text" placeholder="p">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="b">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="pentagon-second-input" type="text" placeholder="b">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="pentagon-btn" >Calculate</button>
                             </div>
                         </div>
                     </div>
+                    <!-- ellipse -->
                     <div class="col">
                         <div class="card h-100 p-5">
                             <img src="images/ellipse.png" class="card-img-top w-75 mx-auto" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title text-center mt-5">Ellipse</h5>
+                                <h5 class="card-title text-center mt-5" id="ellipse-title" >Ellipse</h5>
                                 <p class="card-text text-center mb-2">Area (A) = πab</p>
                                 <div class=" d-flex justify-content-cente">
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="a">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="ellipse-first-input" type="text" placeholder="a">
 
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                     <div>
-                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" type="text" placeholder="b">
+                                        <input class="w-50 bg-dark-subtle border border-secondary rounded-2 px-2" id="ellipse-second-input" type="text" placeholder="b">
                                     </div>
                                     <div>
                                         <h4>cm</h4>
                                     </div>
                                 </div>
-                                <button class="mt-5  btn btn-primary w-75">Calculate</button>
+                                <button class="mt-5  btn btn-primary w-75" id="ellipse-btn" >Calculate</button>
                             </div>
                         </div>
                     </div>
@@ -191,7 +195,7 @@
                      <div>
                         <table class="table">
 
-                            <tbody>
+                            <tbody id="table-container">
                            
                             </tbody>
                           </table>
@@ -202,10 +206,11 @@
         </div>
     </main>
 
-
+    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
